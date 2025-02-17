@@ -5,6 +5,8 @@ import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   { path: 'home', component:  HomeComponent},
+  //esto establece la ruta inicial predeterminada
+  { path: '', pathMatch: 'full', redirectTo: 'home' },
 ];
 
 @NgModule({
