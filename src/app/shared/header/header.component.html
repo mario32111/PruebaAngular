@@ -315,7 +315,7 @@
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
                             <li><a class="dropdown-item" href="about-us-basic.html">About Us - Basic</a></li>
-                            <li><a class="dropdown-item" href="about-me.html">About Me</a></li>
+                            <li><a class="dropdown-item" [routerLink]="['/about-me']">About Me</a></li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
@@ -366,8 +366,11 @@
                         <li><a class="dropdown-item" href="page-careers.html">Careers</a></li>
                         <li><a class="dropdown-item" href="page-our-office.html">Our Office</a></li>
                         <li><a class="dropdown-item" href="page-faq.html">FAQ</a></li>
-                        <li><a class="dropdown-item" href="page-login.html">Login / Register</a></li>
-                      </ul>
+<!--                         <li><a class="dropdown-item" [routerLink]="['/login']">Login / Register</a></li>
+ -->
+                         <li><a class="dropdown-item" style="cursor: pointer;" (click)="goLogin()">Login / Register</a></li>
+
+</ul>
                     </li>
                     <li class="dropdown">
                       <a class="dropdown-item dropdown-toggle" href="#">
