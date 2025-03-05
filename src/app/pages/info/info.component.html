@@ -1,2 +1,6 @@
-<p>{{nombre}}</p>
+<p>Con interpolacion: {{nombre.toUpperCase()}}</p>
+<p [innerText]="nombre" ></p>
+
+<!-- el inner solo es texto y etiquetas html basicas sin ts o js -->
+<p [innerHTML]="'<h1>{{nombre.toUpperCase()}}</h1>'"></p>
 <p>{{password}}</p>
