@@ -1,0 +1,15 @@
+.centrar-login{
+  margin: 0 auto;
+}
+
+.msg1{
+  height: 18px;
+  color: red;
+  font-weight: bolder;
+}
+
+.msg2{
+  height: 20px;
+  color: blue;
+  font-weight: bolder;
+}

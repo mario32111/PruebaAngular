@@ -6612,7 +6612,7 @@ section.timeline .timeline-box .owl-carousel {
 
 /* Arrows */
 .arrow {
-	background: transparent url(../assets/img/arrows.png) no-repeat 0 0;
+	background: transparent url(../img/arrows.png) no-repeat 0 0;
 	width: 47px;
 	height: 120px;
 	display: inline-block;
@@ -6620,7 +6620,7 @@ section.timeline .timeline-box .owl-carousel {
 }
 
 .arrow.arrow-light {
-	background-image: url(../assets/img/arrows-dark.png);
+	background-image: url(../img/arrows-dark.png);
 }
 
 .arrow.vtl {

@@ -1,0 +1,14 @@
+<section>
+  <article class="continer" *ngFor="let user of users.data">
+    <div>
+      <div>
+        <img src="{{user.avatar}}" alt="">
+      </div>
+      <div>
+        <p>{{ user.id}}</p>
+        <h4>{{ user.first_name }} {{user.last_name}}</h4>
+        <p>{{user.email}}</p>
+      </div>
+    </div>
+  </article>
+</section>
