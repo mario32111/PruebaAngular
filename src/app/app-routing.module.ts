@@ -10,6 +10,8 @@ import { Acerca2Component } from './pages/acerca2/acerca2.component';
 import { Acerca3Component } from './pages/acerca3/acerca3.component';
 import { ComparaComponent } from './pages/compara/compara.component';
 import { Login2Component } from './pages/login2/login2.component';
+import { ClientesComponent } from './pages/clientes/clientes.component';
+import { IniciarSesionComponent } from './pages/iniciar-sesion/iniciar-sesion.component';
 const routes: Routes = [
   { path: 'home', component:  HomeComponent},
   { path: 'login', component:  LoginComponent},
@@ -20,6 +22,10 @@ const routes: Routes = [
   { path: 'about2', component:  Acerca2Component},
   { path: 'about3', component:  Acerca3Component},
   { path: 'compara', component: ComparaComponent},
+  { path: 'clientes', component: ClientesComponent},
+  { path: 'iniciarSesion', component: IniciarSesionComponent},
+
+
   //esto establece la ruta inicial predeterminada
   { path: '', pathMatch: 'full', redirectTo: 'home' },
   { path: '**', component: NotFoundComponent },

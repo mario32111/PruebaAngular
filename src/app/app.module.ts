@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { Acerca2Component } from './pages/acerca2/acerca2.component';
 import { Acerca3Component } from './pages/acerca3/acerca3.component';
 import { Login2Component } from './pages/login2/login2.component';
+import { IniciarSesionComponent } from './pages/iniciar-sesion/iniciar-sesion.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { Login2Component } from './pages/login2/login2.component';
     Acerca2Component,
     InfoComponent,
     Acerca3Component,
-    Login2Component
+    Login2Component,
+    IniciarSesionComponent
   ],
   imports: [
     CommonModule,

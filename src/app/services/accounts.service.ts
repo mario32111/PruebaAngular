@@ -12,4 +12,10 @@ export class AccountsService {
       headers: { 'Content-Type': 'application/json' }
     });
   }
+
+  verificar(data: any) {
+    return this.http.post(`${this.url}verificarUsuario.php`, JSON.stringify(data), {
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
 }

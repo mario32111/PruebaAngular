@@ -1,0 +1,36 @@
+<div class="col-md-6 centrar-login">
+  <div class="featured-box featured-box-primary text-left mt-5">
+    <div class="box-content">
+      <h4  class="heading-primary text-uppercase mb-3">login</h4>
+<!--       esto es para hacerloo con un input
+ --><!--       <input type="text"  class="form-control form-control-lg" [(ngModel)]="texto" class="heading-primary text-uppercase mb-3">
+ -->  <form (ngSubmit)="onSubmit()" id="frmSignIn">
+  <div class="form-row">
+    <div class="form-group col">
+      <label>Username or E-mail Address</label>
+      <input [(ngModel)]="email" type="text" class="form-control form-control-lg" name="email">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col">
+      <a class="float-right" href="#">(Lost Password?)</a>
+      <label>Password</label>
+      <input [(ngModel)]="password" type="password" class="form-control form-control-lg" name="password">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-lg-6">
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" id="rememberme" name="rememberme"> Remember Me
+        </label>
+      </div>
+    </div>
+    <div class="form-group col-lg-6">
+      <input type="submit" value="Login" class="btn btn-primary float-right mb-5" data-loading-text="Loading...">
+    </div>
+  </div>
+</form>
+    </div>
+  </div>
+</div>
